@@ -6,7 +6,7 @@
 Во первых установить все библиотеки из файла requirements.txt.
 После чего вы можете запускать парсер. В консоли будет регулярно (каждый час) выводится "None" - что означает что парсер работает. Также на 45 строчке вы можете изменить значение переменной file_path, что изменит путь к файлу.
 
-# ENGLISH LANGUAGE GUIDE (РУКОВОДСТВО НА РУССКОМ ЯЗЫКЕ)
+# ENGLISH LANGUAGE GUIDE (РУКОВОДСТВО НА АНГЛИЙСКОМ ЯЗЫКЕ)
 # How is it useful?
 This parser was created to collect information from the page https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027, specifically strike prices (e.g., 1,000,000, etc.) and prices (e.g., 2%, etc.).
 Its main feature is that it doesn't create a new Excel file every hour, but immediately appends the new data received every hour to the same file!
