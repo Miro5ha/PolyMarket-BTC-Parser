@@ -8,8 +8,8 @@
 
 # ENGLISH LANGUAGE GUIDE (РУКОВОДСТВО НА РУССКОМ ЯЗЫКЕ)
 # How is it useful?
-This parser was created to collect information from the page https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027, specifically strikes (e.g., 1,000,000, etc.) and prices (e.g., 2%, etc.).
-Its main feature is that it doesn't create a new Excel file every hour, but immediately appends the new data received an hour later to the same file!
+This parser was created to collect information from the page https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027, specifically strike prices (e.g., 1,000,000, etc.) and prices (e.g., 2%, etc.).
+Its main feature is that it doesn't create a new Excel file every hour, but immediately appends the new data received every hour to the same file!
 # What do you need to use it?
-First, install four libraries (requests, pandas, fake_useragent, beautifulsoup4) and one more method for BeautifulSoup (lxml).
-After that, you can run the parser. The console will regularly (every hour) display "None" - indicating that the parser is running. Also on line 45 you can change the value of the file_path variable, which will change the path to the file.
+First, install all the libraries from the requirements.txt file.
+After that, you can run the parser. The console will regularly (every hour) display "None," indicating that the parser is running. You can also change the value of the file_path variable on line 45, which will change the path to the file.
